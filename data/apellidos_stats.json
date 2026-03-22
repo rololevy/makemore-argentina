@@ -1,0 +1,2403 @@
+{
+  "total_unique_surnames": 136544,
+  "total_rows_processed": 321516,
+  "discarded_rows": 414,
+  "provinces": {
+    "2": "Ciudad de Buenos Aires",
+    "6": "Buenos Aires",
+    "10": "Catamarca",
+    "14": "Córdoba",
+    "18": "Corrientes",
+    "22": "Chaco",
+    "26": "Chubut",
+    "30": "Entre Ríos",
+    "34": "Formosa",
+    "38": "Jujuy",
+    "42": "La Pampa",
+    "46": "La Rioja",
+    "50": "Mendoza",
+    "54": "Misiones",
+    "58": "Neuquén",
+    "62": "Río Negro",
+    "66": "Salta",
+    "70": "San Juan",
+    "74": "San Luis",
+    "78": "Santa Cruz",
+    "82": "Santa Fe",
+    "86": "Santiago del Estero",
+    "90": "Tucumán",
+    "94": "Tierra del Fuego"
+  },
+  "top_100_national": [
+    {
+      "apellido": "gonzalez",
+      "cantidad": 783399
+    },
+    {
+      "apellido": "rodriguez",
+      "cantidad": 622643
+    },
+    {
+      "apellido": "gomez",
+      "cantidad": 576647
+    },
+    {
+      "apellido": "lopez",
+      "cantidad": 520897
+    },
+    {
+      "apellido": "fernandez",
+      "cantidad": 520713
+    },
+    {
+      "apellido": "martinez",
+      "cantidad": 467014
+    },
+    {
+      "apellido": "diaz",
+      "cantidad": 458017
+    },
+    {
+      "apellido": "perez",
+      "cantidad": 371706
+    },
+    {
+      "apellido": "sanchez",
+      "cantidad": 360726
+    },
+    {
+      "apellido": "romero",
+      "cantidad": 356015
+    },
+    {
+      "apellido": "garcia",
+      "cantidad": 347660
+    },
+    {
+      "apellido": "sosa",
+      "cantidad": 256043
+    },
+    {
+      "apellido": "benitez",
+      "cantidad": 236845
+    },
+    {
+      "apellido": "ramirez",
+      "cantidad": 234866
+    },
+    {
+      "apellido": "ruiz",
+      "cantidad": 232729
+    },
+    {
+      "apellido": "torres",
+      "cantidad": 232413
+    },
+    {
+      "apellido": "flores",
+      "cantidad": 226614
+    },
+    {
+      "apellido": "alvarez",
+      "cantidad": 213978
+    },
+    {
+      "apellido": "acosta",
+      "cantidad": 199717
+    },
+    {
+      "apellido": "rojas",
+      "cantidad": 195334
+    },
+    {
+      "apellido": "medina",
+      "cantidad": 192671
+    },
+    {
+      "apellido": "gimenez",
+      "cantidad": 179728
+    },
+    {
+      "apellido": "gutierrez",
+      "cantidad": 177867
+    },
+    {
+      "apellido": "aguirre",
+      "cantidad": 173226
+    },
+    {
+      "apellido": "herrera",
+      "cantidad": 172671
+    },
+    {
+      "apellido": "suarez",
+      "cantidad": 169015
+    },
+    {
+      "apellido": "pereyra",
+      "cantidad": 160530
+    },
+    {
+      "apellido": "nuñez",
+      "cantidad": 158449
+    },
+    {
+      "apellido": "molina",
+      "cantidad": 156655
+    },
+    {
+      "apellido": "ortiz",
+      "cantidad": 156020
+    },
+    {
+      "apellido": "silva",
+      "cantidad": 154910
+    },
+    {
+      "apellido": "castro",
+      "cantidad": 148216
+    },
+    {
+      "apellido": "cabrera",
+      "cantidad": 144559
+    },
+    {
+      "apellido": "rios",
+      "cantidad": 140391
+    },
+    {
+      "apellido": "juarez",
+      "cantidad": 134892
+    },
+    {
+      "apellido": "luna",
+      "cantidad": 134287
+    },
+    {
+      "apellido": "morales",
+      "cantidad": 133503
+    },
+    {
+      "apellido": "godoy",
+      "cantidad": 131911
+    },
+    {
+      "apellido": "castillo",
+      "cantidad": 130028
+    },
+    {
+      "apellido": "vera",
+      "cantidad": 129369
+    },
+    {
+      "apellido": "villalba",
+      "cantidad": 126806
+    },
+    {
+      "apellido": "dominguez",
+      "cantidad": 123310
+    },
+    {
+      "apellido": "moreno",
+      "cantidad": 121531
+    },
+    {
+      "apellido": "cardozo",
+      "cantidad": 121140
+    },
+    {
+      "apellido": "ferreyra",
+      "cantidad": 119896
+    },
+    {
+      "apellido": "peralta",
+      "cantidad": 119880
+    },
+    {
+      "apellido": "ledesma",
+      "cantidad": 117717
+    },
+    {
+      "apellido": "ojeda",
+      "cantidad": 116948
+    },
+    {
+      "apellido": "vargas",
+      "cantidad": 116290
+    },
+    {
+      "apellido": "caceres",
+      "cantidad": 115747
+    },
+    {
+      "apellido": "muñoz",
+      "cantidad": 114671
+    },
+    {
+      "apellido": "vega",
+      "cantidad": 114588
+    },
+    {
+      "apellido": "quiroga",
+      "cantidad": 112756
+    },
+    {
+      "apellido": "carrizo",
+      "cantidad": 109647
+    },
+    {
+      "apellido": "ramos",
+      "cantidad": 106859
+    },
+    {
+      "apellido": "ponce",
+      "cantidad": 102331
+    },
+    {
+      "apellido": "coronel",
+      "cantidad": 100252
+    },
+    {
+      "apellido": "vazquez",
+      "cantidad": 98977
+    },
+    {
+      "apellido": "miranda",
+      "cantidad": 97173
+    },
+    {
+      "apellido": "mendoza",
+      "cantidad": 96470
+    },
+    {
+      "apellido": "navarro",
+      "cantidad": 96450
+    },
+    {
+      "apellido": "arias",
+      "cantidad": 96005
+    },
+    {
+      "apellido": "cruz",
+      "cantidad": 95805
+    },
+    {
+      "apellido": "correa",
+      "cantidad": 94330
+    },
+    {
+      "apellido": "figueroa",
+      "cantidad": 94174
+    },
+    {
+      "apellido": "maldonado",
+      "cantidad": 94140
+    },
+    {
+      "apellido": "ayala",
+      "cantidad": 92961
+    },
+    {
+      "apellido": "escobar",
+      "cantidad": 92892
+    },
+    {
+      "apellido": "mamani",
+      "cantidad": 92620
+    },
+    {
+      "apellido": "rivero",
+      "cantidad": 91471
+    },
+    {
+      "apellido": "duarte",
+      "cantidad": 90995
+    },
+    {
+      "apellido": "mendez",
+      "cantidad": 90174
+    },
+    {
+      "apellido": "guzman",
+      "cantidad": 88207
+    },
+    {
+      "apellido": "cordoba",
+      "cantidad": 88051
+    },
+    {
+      "apellido": "barrios",
+      "cantidad": 88010
+    },
+    {
+      "apellido": "mansilla",
+      "cantidad": 87364
+    },
+    {
+      "apellido": "paz",
+      "cantidad": 86405
+    },
+    {
+      "apellido": "farias",
+      "cantidad": 84304
+    },
+    {
+      "apellido": "acuña",
+      "cantidad": 83306
+    },
+    {
+      "apellido": "roldan",
+      "cantidad": 82751
+    },
+    {
+      "apellido": "chavez",
+      "cantidad": 81723
+    },
+    {
+      "apellido": "hernandez",
+      "cantidad": 81555
+    },
+    {
+      "apellido": "maidana",
+      "cantidad": 80400
+    },
+    {
+      "apellido": "paez",
+      "cantidad": 78592
+    },
+    {
+      "apellido": "avila",
+      "cantidad": 78196
+    },
+    {
+      "apellido": "franco",
+      "cantidad": 78042
+    },
+    {
+      "apellido": "leiva",
+      "cantidad": 77501
+    },
+    {
+      "apellido": "soto",
+      "cantidad": 76903
+    },
+    {
+      "apellido": "lucero",
+      "cantidad": 76571
+    },
+    {
+      "apellido": "bustos",
+      "cantidad": 74790
+    },
+    {
+      "apellido": "velazquez",
+      "cantidad": 74663
+    },
+    {
+      "apellido": "soria",
+      "cantidad": 74531
+    },
+    {
+      "apellido": "blanco",
+      "cantidad": 74110
+    },
+    {
+      "apellido": "baez",
+      "cantidad": 73513
+    },
+    {
+      "apellido": "campos",
+      "cantidad": 72289
+    },
+    {
+      "apellido": "valdez",
+      "cantidad": 72185
+    },
+    {
+      "apellido": "aguilar",
+      "cantidad": 68642
+    },
+    {
+      "apellido": "olivera",
+      "cantidad": 68151
+    },
+    {
+      "apellido": "arce",
+      "cantidad": 68029
+    },
+    {
+      "apellido": "vallejos",
+      "cantidad": 67741
+    }
+  ],
+  "top_by_province": {
+    "Buenos Aires": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 315472
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 242834
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 223400
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 209765
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 200199
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 186012
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 155968
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 145272
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 140939
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 130780
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 126456
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 109226
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 91382
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 91039
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 87000
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 86309
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 80654
+      },
+      {
+        "apellido": "acosta",
+        "cantidad": 80146
+      },
+      {
+        "apellido": "rojas",
+        "cantidad": 76686
+      },
+      {
+        "apellido": "medina",
+        "cantidad": 74792
+      }
+    ],
+    "Catamarca": [
+      {
+        "apellido": "carrizo",
+        "cantidad": 8718
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 6807
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 6703
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 6169
+      },
+      {
+        "apellido": "herrera",
+        "cantidad": 6014
+      },
+      {
+        "apellido": "nieva",
+        "cantidad": 5347
+      },
+      {
+        "apellido": "barrionuevo",
+        "cantidad": 4656
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 4327
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 4234
+      },
+      {
+        "apellido": "vega",
+        "cantidad": 4170
+      },
+      {
+        "apellido": "moreno",
+        "cantidad": 3779
+      },
+      {
+        "apellido": "cordoba",
+        "cantidad": 3621
+      },
+      {
+        "apellido": "bazan",
+        "cantidad": 3535
+      },
+      {
+        "apellido": "gutierrez",
+        "cantidad": 3437
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 3407
+      },
+      {
+        "apellido": "quiroga",
+        "cantidad": 3151
+      },
+      {
+        "apellido": "soria",
+        "cantidad": 3043
+      },
+      {
+        "apellido": "castro",
+        "cantidad": 3004
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 2830
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 2824
+      }
+    ],
+    "Chaco": [
+      {
+        "apellido": "gomez",
+        "cantidad": 36279
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 29398
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 24272
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 21583
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 21138
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 17583
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 16608
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 12836
+      },
+      {
+        "apellido": "aguirre",
+        "cantidad": 12763
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 12754
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 11766
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 11741
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 11234
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 10799
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 9878
+      },
+      {
+        "apellido": "ojeda",
+        "cantidad": 9788
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 9647
+      },
+      {
+        "apellido": "acosta",
+        "cantidad": 9191
+      },
+      {
+        "apellido": "medina",
+        "cantidad": 9146
+      },
+      {
+        "apellido": "barrios",
+        "cantidad": 8215
+      }
+    ],
+    "Chubut": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 9569
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 6526
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 6213
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 5401
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 5159
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 5146
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 4967
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 4797
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 4351
+      },
+      {
+        "apellido": "muñoz",
+        "cantidad": 3797
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 3662
+      },
+      {
+        "apellido": "soto",
+        "cantidad": 3570
+      },
+      {
+        "apellido": "vargas",
+        "cantidad": 3491
+      },
+      {
+        "apellido": "mansilla",
+        "cantidad": 3412
+      },
+      {
+        "apellido": "hernandez",
+        "cantidad": 3367
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 3266
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 3117
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 3072
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 2718
+      },
+      {
+        "apellido": "morales",
+        "cantidad": 2600
+      }
+    ],
+    "Ciudad de Buenos Aires": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 49529
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 46596
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 40604
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 37172
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 34283
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 32738
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 26831
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 26662
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 22401
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 22366
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 17277
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 16296
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 14553
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 13653
+      },
+      {
+        "apellido": "mamani",
+        "cantidad": 13541
+      },
+      {
+        "apellido": "rojas",
+        "cantidad": 13220
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 13151
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 12438
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 12320
+      },
+      {
+        "apellido": "gutierrez",
+        "cantidad": 12102
+      }
+    ],
+    "Corrientes": [
+      {
+        "apellido": "gomez",
+        "cantidad": 33581
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 29326
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 28055
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 27860
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 20112
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 18087
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 16609
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 16079
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 15258
+      },
+      {
+        "apellido": "aguirre",
+        "cantidad": 14366
+      },
+      {
+        "apellido": "ojeda",
+        "cantidad": 12970
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 12484
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 10504
+      },
+      {
+        "apellido": "maidana",
+        "cantidad": 9910
+      },
+      {
+        "apellido": "vallejos",
+        "cantidad": 9642
+      },
+      {
+        "apellido": "alegre",
+        "cantidad": 9238
+      },
+      {
+        "apellido": "barrios",
+        "cantidad": 8735
+      },
+      {
+        "apellido": "ayala",
+        "cantidad": 8495
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 8437
+      },
+      {
+        "apellido": "cardozo",
+        "cantidad": 8247
+      }
+    ],
+    "Córdoba": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 55064
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 51202
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 43710
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 39780
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 36973
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 33110
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 32279
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 31964
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 29990
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 29451
+      },
+      {
+        "apellido": "pereyra",
+        "cantidad": 24605
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 23339
+      },
+      {
+        "apellido": "peralta",
+        "cantidad": 23018
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 22077
+      },
+      {
+        "apellido": "ferreyra",
+        "cantidad": 21918
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 21470
+      },
+      {
+        "apellido": "molina",
+        "cantidad": 20691
+      },
+      {
+        "apellido": "bustos",
+        "cantidad": 19073
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 18738
+      },
+      {
+        "apellido": "moyano",
+        "cantidad": 18025
+      }
+    ],
+    "Entre Ríos": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 26907
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 21040
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 19314
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 17945
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 14018
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 13630
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 12788
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 12505
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 10972
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 10076
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 9806
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 9769
+      },
+      {
+        "apellido": "godoy",
+        "cantidad": 9461
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 9407
+      },
+      {
+        "apellido": "acosta",
+        "cantidad": 7871
+      },
+      {
+        "apellido": "gimenez",
+        "cantidad": 7853
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 6846
+      },
+      {
+        "apellido": "rios",
+        "cantidad": 6842
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 6657
+      },
+      {
+        "apellido": "cabrera",
+        "cantidad": 6538
+      }
+    ],
+    "Formosa": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 17351
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 13714
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 10379
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 9624
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 9582
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 8340
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 6989
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 6984
+      },
+      {
+        "apellido": "gimenez",
+        "cantidad": 6923
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 6678
+      },
+      {
+        "apellido": "rojas",
+        "cantidad": 6339
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 6308
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 6180
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 6024
+      },
+      {
+        "apellido": "acosta",
+        "cantidad": 5869
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 5763
+      },
+      {
+        "apellido": "ayala",
+        "cantidad": 5723
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 5394
+      },
+      {
+        "apellido": "villalba",
+        "cantidad": 5329
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 5202
+      }
+    ],
+    "Jujuy": [
+      {
+        "apellido": "mamani",
+        "cantidad": 17895
+      },
+      {
+        "apellido": "cruz",
+        "cantidad": 17857
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 15409
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 10848
+      },
+      {
+        "apellido": "gutierrez",
+        "cantidad": 10234
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 9466
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 9247
+      },
+      {
+        "apellido": "quispe",
+        "cantidad": 7830
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 7047
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 6824
+      },
+      {
+        "apellido": "ramos",
+        "cantidad": 6781
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 6775
+      },
+      {
+        "apellido": "tolaba",
+        "cantidad": 6724
+      },
+      {
+        "apellido": "vargas",
+        "cantidad": 6282
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 5824
+      },
+      {
+        "apellido": "farfan",
+        "cantidad": 5257
+      },
+      {
+        "apellido": "condori",
+        "cantidad": 5240
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 5074
+      },
+      {
+        "apellido": "cardozo",
+        "cantidad": 4966
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 4949
+      }
+    ],
+    "La Pampa": [
+      {
+        "apellido": "rodriguez",
+        "cantidad": 5687
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 5039
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 4481
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 4374
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 4203
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 3708
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 3600
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 3483
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 3272
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 2729
+      },
+      {
+        "apellido": "lucero",
+        "cantidad": 2568
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 2417
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 2396
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 2097
+      },
+      {
+        "apellido": "gimenez",
+        "cantidad": 1791
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 1778
+      },
+      {
+        "apellido": "dominguez",
+        "cantidad": 1721
+      },
+      {
+        "apellido": "muñoz",
+        "cantidad": 1693
+      },
+      {
+        "apellido": "suarez",
+        "cantidad": 1616
+      },
+      {
+        "apellido": "pereyra",
+        "cantidad": 1497
+      }
+    ],
+    "La Rioja": [
+      {
+        "apellido": "diaz",
+        "cantidad": 10106
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 7699
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 7183
+      },
+      {
+        "apellido": "paez",
+        "cantidad": 6278
+      },
+      {
+        "apellido": "herrera",
+        "cantidad": 5583
+      },
+      {
+        "apellido": "carrizo",
+        "cantidad": 5414
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 5297
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 5086
+      },
+      {
+        "apellido": "mercado",
+        "cantidad": 5031
+      },
+      {
+        "apellido": "moreno",
+        "cantidad": 4949
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 4197
+      },
+      {
+        "apellido": "nieto",
+        "cantidad": 4052
+      },
+      {
+        "apellido": "vega",
+        "cantidad": 3881
+      },
+      {
+        "apellido": "luna",
+        "cantidad": 3696
+      },
+      {
+        "apellido": "avila",
+        "cantidad": 3626
+      },
+      {
+        "apellido": "castro",
+        "cantidad": 3480
+      },
+      {
+        "apellido": "molina",
+        "cantidad": 3462
+      },
+      {
+        "apellido": "brizuela",
+        "cantidad": 3428
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 3399
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 3327
+      }
+    ],
+    "Mendoza": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 33231
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 24186
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 23115
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 21738
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 19711
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 19250
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 18542
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 17670
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 16989
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 16191
+      },
+      {
+        "apellido": "lucero",
+        "cantidad": 15827
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 15185
+      },
+      {
+        "apellido": "quiroga",
+        "cantidad": 15052
+      },
+      {
+        "apellido": "morales",
+        "cantidad": 13816
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 13091
+      },
+      {
+        "apellido": "castro",
+        "cantidad": 12493
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 11891
+      },
+      {
+        "apellido": "muñoz",
+        "cantidad": 11376
+      },
+      {
+        "apellido": "ortiz",
+        "cantidad": 10019
+      },
+      {
+        "apellido": "videla",
+        "cantidad": 9980
+      }
+    ],
+    "Misiones": [
+      {
+        "apellido": "rodriguez",
+        "cantidad": 29278
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 28777
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 23857
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 18423
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 17313
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 16230
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 15341
+      },
+      {
+        "apellido": "da silva",
+        "cantidad": 15062
+      },
+      {
+        "apellido": "dos",
+        "cantidad": 12471
+      },
+      {
+        "apellido": "villalba",
+        "cantidad": 10722
+      },
+      {
+        "apellido": "duarte",
+        "cantidad": 10588
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 10559
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 9951
+      },
+      {
+        "apellido": "nuñez",
+        "cantidad": 9432
+      },
+      {
+        "apellido": "alvez",
+        "cantidad": 9328
+      },
+      {
+        "apellido": "acosta",
+        "cantidad": 9135
+      },
+      {
+        "apellido": "olivera",
+        "cantidad": 9041
+      },
+      {
+        "apellido": "silva",
+        "cantidad": 8522
+      },
+      {
+        "apellido": "gimenez",
+        "cantidad": 8320
+      },
+      {
+        "apellido": "baez",
+        "cantidad": 8229
+      }
+    ],
+    "Neuquén": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 10366
+      },
+      {
+        "apellido": "muñoz",
+        "cantidad": 8569
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 8375
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 6626
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 6357
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 5609
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 5377
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 5369
+      },
+      {
+        "apellido": "sepulveda",
+        "cantidad": 5132
+      },
+      {
+        "apellido": "jara",
+        "cantidad": 5108
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 5003
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 4914
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 4868
+      },
+      {
+        "apellido": "castillo",
+        "cantidad": 4857
+      },
+      {
+        "apellido": "fuentes",
+        "cantidad": 4766
+      },
+      {
+        "apellido": "hernandez",
+        "cantidad": 4527
+      },
+      {
+        "apellido": "soto",
+        "cantidad": 4472
+      },
+      {
+        "apellido": "vazquez",
+        "cantidad": 4407
+      },
+      {
+        "apellido": "morales",
+        "cantidad": 4382
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 4237
+      }
+    ],
+    "Río Negro": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 11129
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 8237
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 8157
+      },
+      {
+        "apellido": "muñoz",
+        "cantidad": 7490
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 6986
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 6961
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 6668
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 6189
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 6046
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 5099
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 4394
+      },
+      {
+        "apellido": "morales",
+        "cantidad": 4355
+      },
+      {
+        "apellido": "hernandez",
+        "cantidad": 4314
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 4228
+      },
+      {
+        "apellido": "sepulveda",
+        "cantidad": 4061
+      },
+      {
+        "apellido": "sandoval",
+        "cantidad": 3956
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 3686
+      },
+      {
+        "apellido": "jara",
+        "cantidad": 3680
+      },
+      {
+        "apellido": "gutierrez",
+        "cantidad": 3671
+      },
+      {
+        "apellido": "soto",
+        "cantidad": 3609
+      }
+    ],
+    "Salta": [
+      {
+        "apellido": "lopez",
+        "cantidad": 28239
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 21654
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 19397
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 19286
+      },
+      {
+        "apellido": "cruz",
+        "cantidad": 17637
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 17023
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 15852
+      },
+      {
+        "apellido": "mamani",
+        "cantidad": 15212
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 14949
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 14640
+      },
+      {
+        "apellido": "gutierrez",
+        "cantidad": 14344
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 12229
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 11839
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 11804
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 11566
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 11005
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 10728
+      },
+      {
+        "apellido": "rojas",
+        "cantidad": 9062
+      },
+      {
+        "apellido": "cardozo",
+        "cantidad": 8757
+      },
+      {
+        "apellido": "arias",
+        "cantidad": 8579
+      }
+    ],
+    "San Juan": [
+      {
+        "apellido": "castro",
+        "cantidad": 15545
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 14594
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 12858
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 11037
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 10280
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 9621
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 9553
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 9118
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 8851
+      },
+      {
+        "apellido": "quiroga",
+        "cantidad": 8682
+      },
+      {
+        "apellido": "molina",
+        "cantidad": 7744
+      },
+      {
+        "apellido": "paez",
+        "cantidad": 7676
+      },
+      {
+        "apellido": "cortez",
+        "cantidad": 6761
+      },
+      {
+        "apellido": "carrizo",
+        "cantidad": 6650
+      },
+      {
+        "apellido": "muñoz",
+        "cantidad": 6027
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 5998
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 5781
+      },
+      {
+        "apellido": "tejada",
+        "cantidad": 5468
+      },
+      {
+        "apellido": "morales",
+        "cantidad": 5452
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 5320
+      }
+    ],
+    "San Luis": [
+      {
+        "apellido": "lucero",
+        "cantidad": 12254
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 10271
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 7708
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 7388
+      },
+      {
+        "apellido": "quiroga",
+        "cantidad": 6740
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 6420
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 6233
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 6121
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 5806
+      },
+      {
+        "apellido": "muñoz",
+        "cantidad": 5389
+      },
+      {
+        "apellido": "escudero",
+        "cantidad": 5109
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 4776
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 4738
+      },
+      {
+        "apellido": "miranda",
+        "cantidad": 4622
+      },
+      {
+        "apellido": "suarez",
+        "cantidad": 4262
+      },
+      {
+        "apellido": "godoy",
+        "cantidad": 3887
+      },
+      {
+        "apellido": "villegas",
+        "cantidad": 3834
+      },
+      {
+        "apellido": "barroso",
+        "cantidad": 3688
+      },
+      {
+        "apellido": "ortiz",
+        "cantidad": 3601
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 3542
+      }
+    ],
+    "Santa Cruz": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 5550
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 4251
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 4150
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 3503
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 3426
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 3352
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 3306
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 3191
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 2520
+      },
+      {
+        "apellido": "vargas",
+        "cantidad": 2435
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 2427
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 2414
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 2336
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 2319
+      },
+      {
+        "apellido": "vera",
+        "cantidad": 2280
+      },
+      {
+        "apellido": "muñoz",
+        "cantidad": 2275
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 2266
+      },
+      {
+        "apellido": "ojeda",
+        "cantidad": 2103
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 2060
+      },
+      {
+        "apellido": "cardenas",
+        "cantidad": 2026
+      }
+    ],
+    "Santa Fe": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 51067
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 44565
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 39997
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 37212
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 35181
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 33227
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 27543
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 26591
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 25422
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 24904
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 24275
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 20598
+      },
+      {
+        "apellido": "acosta",
+        "cantidad": 19928
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 17413
+      },
+      {
+        "apellido": "aguirre",
+        "cantidad": 17406
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 17242
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 15123
+      },
+      {
+        "apellido": "ojeda",
+        "cantidad": 14439
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 14291
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 13120
+      }
+    ],
+    "Santiago del Estero": [
+      {
+        "apellido": "diaz",
+        "cantidad": 25459
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 23834
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 15804
+      },
+      {
+        "apellido": "juarez",
+        "cantidad": 15197
+      },
+      {
+        "apellido": "paz",
+        "cantidad": 14579
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 14518
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 13728
+      },
+      {
+        "apellido": "coronel",
+        "cantidad": 13555
+      },
+      {
+        "apellido": "suarez",
+        "cantidad": 12955
+      },
+      {
+        "apellido": "ledesma",
+        "cantidad": 12544
+      },
+      {
+        "apellido": "herrera",
+        "cantidad": 12084
+      },
+      {
+        "apellido": "luna",
+        "cantidad": 11950
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 10765
+      },
+      {
+        "apellido": "santillan",
+        "cantidad": 10378
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 9818
+      },
+      {
+        "apellido": "jimenez",
+        "cantidad": 9280
+      },
+      {
+        "apellido": "rojas",
+        "cantidad": 8998
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 8706
+      },
+      {
+        "apellido": "gerez",
+        "cantidad": 8524
+      },
+      {
+        "apellido": "mansilla",
+        "cantidad": 8439
+      }
+    ],
+    "Tierra del Fuego": [
+      {
+        "apellido": "gonzalez",
+        "cantidad": 3177
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 2407
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 2236
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 1992
+      },
+      {
+        "apellido": "diaz",
+        "cantidad": 1935
+      },
+      {
+        "apellido": "martinez",
+        "cantidad": 1875
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 1838
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 1806
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 1524
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 1451
+      },
+      {
+        "apellido": "romero",
+        "cantidad": 1358
+      },
+      {
+        "apellido": "vargas",
+        "cantidad": 1297
+      },
+      {
+        "apellido": "flores",
+        "cantidad": 1247
+      },
+      {
+        "apellido": "torres",
+        "cantidad": 1216
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 1070
+      },
+      {
+        "apellido": "alvarez",
+        "cantidad": 1045
+      },
+      {
+        "apellido": "benitez",
+        "cantidad": 1004
+      },
+      {
+        "apellido": "ramirez",
+        "cantidad": 889
+      },
+      {
+        "apellido": "sosa",
+        "cantidad": 843
+      },
+      {
+        "apellido": "mamani",
+        "cantidad": 820
+      }
+    ],
+    "Tucumán": [
+      {
+        "apellido": "diaz",
+        "cantidad": 38164
+      },
+      {
+        "apellido": "gonzalez",
+        "cantidad": 32763
+      },
+      {
+        "apellido": "rodriguez",
+        "cantidad": 28060
+      },
+      {
+        "apellido": "juarez",
+        "cantidad": 25831
+      },
+      {
+        "apellido": "medina",
+        "cantidad": 24355
+      },
+      {
+        "apellido": "gomez",
+        "cantidad": 23067
+      },
+      {
+        "apellido": "lopez",
+        "cantidad": 19024
+      },
+      {
+        "apellido": "ruiz",
+        "cantidad": 16991
+      },
+      {
+        "apellido": "perez",
+        "cantidad": 16809
+      },
+      {
+        "apellido": "fernandez",
+        "cantidad": 15615
+      },
+      {
+        "apellido": "sanchez",
+        "cantidad": 14962
+      },
+      {
+        "apellido": "herrera",
+        "cantidad": 14937
+      },
+      {
+        "apellido": "soria",
+        "cantidad": 12307
+      },
+      {
+        "apellido": "romano",
+        "cantidad": 12198
+      },
+      {
+        "apellido": "jimenez",
+        "cantidad": 12142
+      },
+      {
+        "apellido": "carrizo",
+        "cantidad": 11846
+      },
+      {
+        "apellido": "garcia",
+        "cantidad": 10933
+      },
+      {
+        "apellido": "suarez",
+        "cantidad": 10357
+      },
+      {
+        "apellido": "lazarte",
+        "cantidad": 9794
+      },
+      {
+        "apellido": "molina",
+        "cantidad": 9688
+      }
+    ]
+  }
+}

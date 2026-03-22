@@ -1,81 +1,60 @@
+# 🇦🇷 MakeMore Argentina
 
-# makemore
+Generador de nombres y apellidos argentinos con inteligencia artificial, basado en [makemore](https://github.com/karpathy/makemore) de Andrej Karpathy.
 
-makemore takes one text file as input, where each line is assumed to be one training thing, and generates more things like it. Under the hood, it is an autoregressive character-level language model, with a wide choice of models from bigrams all the way to a Transformer (exactly as seen in GPT). For example, we can feed it a database of names, and makemore will generate cool baby name ideas that all sound name-like, but are not already existing names. Or if we feed it a database of company names then we can generate new ideas for a name of a company. Or we can just feed it valid scrabble words and generate english-like babble.
+Entrenado con datos reales del **Registro Nacional de las Personas (RENAPER)** de Argentina.
 
-This is not meant to be too heavyweight library with a billion switches and knobs. It is one hackable file, and is mostly intended for educational purposes. [PyTorch](https://pytorch.org) is the only requirement.
+> **[Probalo en vivo →](https://makemore-argentina.streamlit.app)** _(próximamente)_
 
-Current implementation follows a few key papers:
+---
 
-- Bigram (one character predicts the next one with a lookup table of counts)
-- MLP, following [Bengio et al. 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
-- CNN, following [DeepMind WaveNet 2016](https://arxiv.org/abs/1609.03499) (in progress...)
-- RNN, following [Mikolov et al. 2010](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)
-- LSTM, following [Graves et al. 2014](https://arxiv.org/abs/1308.0850)
-- GRU, following [Kyunghyun Cho et al. 2014](https://arxiv.org/abs/1409.1259)
-- Transformer, following [Vaswani et al. 2017](https://arxiv.org/abs/1706.03762)
+## ¿Qué hace?
 
-### Usage
+Genera nombres y apellidos que *suenan* argentinos pero no necesariamente existen. Usa modelos de lenguaje a nivel de carácter que aprenden los patrones de los nombres reales.
 
-The included `names.txt` dataset, as an example, has the most common 32K names takes from [ssa.gov](https://www.ssa.gov/oact/babynames/) for the year 2018. It looks like:
+**Funcionalidades:**
+- **Generar** — Creá nombres, apellidos, o nombres completos nuevos
+- **Autocompletar** — Escribí las primeras letras y el modelo sugiere completaciones
+- **Comparar modelos** — 6 arquitecturas desde la más simple hasta un Transformer
 
-```
-emma
-olivia
-ava
-isabella
-sophia
-charlotte
-...
-```
+## Datos
 
-Let's point the script at it:
+| Dataset | Registros | Período | Fuente |
+|---------|-----------|---------|--------|
+| Nombres | 206.597 únicos (9.7M registros) | 1922–2015 | [RENAPER — Nombres](https://datos.gob.ar/dataset/otros-nombres-personas-fisicas) |
+| Apellidos | 136.544 únicos (321K registros) | Dic. 2021 | [RENAPER — Apellidos](https://datos.gob.ar/dataset/renaper-registro-nacional-personas) |
+
+Los datos incluyen caracteres hispánicos: á, é, í, ó, ú, ñ, ü, espacios (nombres compuestos) y guiones.
+
+## Modelos
+
+Se entrenan 6 arquitecturas de complejidad creciente sobre ambos datasets (12 modelos en total):
+
+| Modelo | Descripción | Test Loss (nombres) | Test Loss (apellidos) |
+|--------|-------------|:-------------------:|:---------------------:|
+| Bigram | Tabla de probabilidades de pares de caracteres | 2.312 | 2.447 |
+| BoW | Bag of Words con atención causal | 1.831 | 2.214 |
+| MLP | Red neuronal feedforward ([Bengio et al. 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)) | 1.030 | 2.072 |
+| RNN | Red neuronal recurrente ([Mikolov et al. 2010](https://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf)) | 0.992 | 2.072 |
+| GRU | Gated Recurrent Unit ([Cho et al. 2014](https://arxiv.org/abs/1409.1259)) | 0.949 | 2.013 |
+| **Transformer** | Arquitectura GPT-2 ([Vaswani et al. 2017](https://arxiv.org/abs/1706.03762)) | **0.939** | **1.970** |
+
+> Menor loss = mejor. El Transformer logra los mejores resultados en ambos datasets.
+
+## Instalación local
 
 ```bash
-$ python makemore.py -i names.txt -o names
-```
+# Clonar el repositorio
+git clone https://github.com/TU_USUARIO/makemore-argentina.git
+cd makemore-argentina
 
-Training progress and logs and model will all be saved to the working directory `names`. The default model is a super tiny 200K param transformer; Many more training configurations are available - see the argparse and read the code. Training does not require any special hardware, it runs on my Macbook Air and will run on anything else, but if you have a GPU then training will fly faster. As training progresses the script will print some samples throughout. However, if you'd like to sample manually, you can use the `--sample-only` flag, e.g. in a separate terminal do:
+# Crear entorno virtual
+python -m venv venv
+venv\Scripts\activate  # Windows
+# source venv/bin/activate  # Linux/Mac
 
-```bash
-$ python makemore.py -i names.txt -o names --sample-only
-```
+# Instalar dependencias (PyTorch CPU-only)
+pip install -r requirements.txt
 
-This will load the best model so far and print more samples on demand. Here are some unique baby names that get eventually generated from current default settings (test logprob of ~1.92, though much lower logprobs are achievable with some hyperparameter tuning):
-
-```
-dontell
-khylum
-camatena
-aeriline
-najlah
-sherrith
-ryel
-irmi
-taislee
-mortaz
-akarli
-maxfelynn
-biolett
-zendy
-laisa
-halliliana
-goralynn
-brodynn
-romima
-chiyomin
-loghlyn
-melichae
-mahmed
-irot
-helicha
-besdy
-ebokun
-lucianno
-```
-
-Have fun!
-
-### License
-
-MIT
+# Ejecutar la app
+streamlit run streamlit_app.py

@@ -1,0 +1,6 @@
+# MakeMore Argentina — CPU-only torch for Streamlit Cloud
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+streamlit
+pandas
+numpy

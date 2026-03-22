@@ -1,0 +1,45 @@
+# === Proyecto original de Karpathy (no pertenecen a este proyecto) ===
+makemore.py
+names.txt
+
+# === Datos crudos del RENAPER (pesados, se descargan por separado) ===
+historico-nombres.csv
+apellidos_cantidad_personas_provincia.csv
+
+# === Datos procesados pesados (se regeneran con data/preprocessing.py) ===
+data/nombres_freq.txt
+data/apellidos_freq.txt
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+.venv/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Entrenamiento ===
+out/
+runs/
+*.log
+
+# === Archivos que SÍ se suben (para referencia) ===
+# models/*.pt             → checkpoints entrenados
+# models/training_summary.json → métricas de entrenamiento
+# data/*_argentinos.txt   → datasets limpios
+# data/*_stats.json       → estadísticas del dataset
