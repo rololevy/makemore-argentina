@@ -4,7 +4,7 @@ Generador de nombres y apellidos argentinos con inteligencia artificial, basado 
 
 Entrenado con datos reales del **Registro Nacional de las Personas (RENAPER)** de Argentina.
 
-> **[Probalo en vivo →](https://makemore-argentina.streamlit.app)** _(próximamente)_
+> **[Probalo en vivo →](https://makemore-argentina.streamlit.app)**
 
 ---
 
